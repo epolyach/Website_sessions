@@ -120,11 +120,21 @@ function initExpandableCards() {
     // Case Cards
     elements.caseCards.forEach(card => {
         const header = card.querySelector('.case-header');
+        const description = card.querySelector('.case-description');
         const expandBtn = card.querySelector('.expand-btn');
         
         if (header) {
             header.addEventListener('click', function(e) {
                 // Don't expand if clicking on a link within the header
+                if (e.target.tagName === 'A') return;
+                
+                toggleCard(card);
+            });
+        }
+        
+        if (description) {
+            description.addEventListener('click', function(e) {
+                // Don't expand if clicking on a link within the description
                 if (e.target.tagName === 'A') return;
                 
                 toggleCard(card);
