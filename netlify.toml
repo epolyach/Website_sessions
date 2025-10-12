@@ -2,11 +2,8 @@
 # The website files are in the 'website' subdirectory
 
 [build]
-  # Base directory - where Netlify should look for the website
-  base = "website"
-  
-  # Publish directory - relative to base directory
-  publish = "."
+  # Publish directory - the folder containing index.html
+  publish = "website"
   
   # No build command needed for static site
   command = ""
