@@ -32,9 +32,9 @@
             <!-- Center: Navigation -->
             <nav class="header-center">
                 <ul class="main-nav">
-                    <li><a href="#overview" data-i18n="nav.overview">Overview</a></li>
-                    <li><a href="#cases" data-i18n="nav.cases">Cases</a></li>
                     <li><a href="#sessions" data-i18n="nav.sessions">Sessions</a></li>
+                    <li><a href="#what-i-bring" data-i18n="nav.what-i-bring">What I Bring</a></li>
+                    <li><a href="#cases" data-i18n="nav.cases">Cases</a></li>
                     <li><a href="#about" data-i18n="nav.about">About Me</a></li>
                 </ul>
             </nav>
@@ -64,22 +64,125 @@
 
     <!-- Main Content -->
     <main>
-        <!-- Hero/Overview Section -->
-        <section id="overview" class="hero-section">
+        <!-- Nobel Prize Quote Section -->
+        <section class="nobel-quote-section">
+            <div class="container">
+                <div class="quote-container">
+                    <blockquote class="nobel-quote">
+                        <p class="quote-text">
+                            “Business growth is not a matter of chance — it’s the outcome of deliberate, disruptive transformation. By replacing legacy thinking with agile, value-driven adaptability, organizations gain resilience and lasting advantage.”
+                        </p>
+                        <footer class="quote-attribution">
+                            — J. Mokyr, P. Aghion & P. Howitt, Nobel Prize in Economics 2025
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sessions Section -->
+        <section id="sessions" class="sessions-section">
+            <div class="container">
+                <h2 class="section-title" data-i18n="sessions.title">Sessions of every kind</h2>
+                
+                <div class="sessions-grid">
+                    <!-- Team Bonding Sessions -->
+                    <a href="sessions/team-bonding.html" class="case-card-link">
+                        <div class="session-card">
+                            <div class="session-header">
+                                <h3 data-i18n="session1.title">Team Bonding Sessions</h3>
+                                <div class="view-case-icon">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                            <div class="session-description">
+                                <span class="case-tags">Sociometry, Management 3.0 practices</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Strategic Sessions -->
+                    <a href="sessions/strategic-sessions.html" class="case-card-link">
+                        <div class="session-card">
+                            <div class="session-header">
+                                <h3 data-i18n="session2.title">Strategic Sessions</h3>
+                                <div class="view-case-icon">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                            <div class="session-description">
+                                <span class="case-tags">Smart strategy, bold creativity, and just the right dose of fun</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Agile Ceremonies -->
+                    <a href="sessions/agile-ceremonies.html" class="case-card-link">
+                        <div class="session-card">
+                            <div class="session-header">
+                                <h3 data-i18n="session3.title">Agile Ceremonies</h3>
+                                <div class="view-case-icon">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                            <div class="session-description">
+                                <span class="case-tags">Retrospectives, Plannings, Process optimizations</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Business Games -->
+                    <a href="sessions/business-games.html" class="case-card-link">
+                        <div class="session-card">
+                            <div class="session-header">
+                                <h3 data-i18n="session4.title">Business Games</h3>
+                                <div class="view-case-icon">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                            <div class="session-description">
+                                <span class="case-tags">Snowflowers factory, Hierarchy, Lego</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Innovative Sessions -->
+                    <a href="sessions/innovative-sessions.html" class="case-card-link">
+                        <div class="session-card">
+                            <div class="session-header">
+                                <h3 data-i18n="session5.title">Innovative Sessions</h3>
+                                <div class="view-case-icon">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                            <div class="session-description">
+                                <span class="session-tagline">Turning insight into movement — and movement into growth</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Others Sessions -->
+                    <a href="sessions/others.html" class="case-card-link">
+                        <div class="session-card">
+                            <div class="session-header">
+                                <h3 data-i18n="session6.title">Others</h3>
+                                <div class="view-case-icon">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                            <div class="session-description">
+                                <span class="case-tags">Customized sessions, coaching, design thinking, leadership</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- What I Bring Section -->
+        <section id="what-i-bring" class="hero-section">
             <div class="container">
                 <div class="hero-content">
-                    <h2 class="hero-title animate-fade-in" data-i18n="hero.title">
-                        Sessions of every kind — sparking bold ideas, smarter decisions, clearer strategy, deeper customer understanding, and better product ways.
-                    </h2>
-                    
-                    <div class="hero-statements">
-                        <p class="statement animate-slide-up" data-i18n="hero.statement1">
-                            Turning insight into movement — and movement into growth.
-                        </p>
-                        <p class="statement animate-slide-up" data-i18n="hero.statement2">
-                            Smart strategy, bold creativity, and just the right dose of fun.
-                        </p>
-                    </div>
+                    <h2 class="section-title">What I Bring</h2>
                     
                     <!-- Experience Grid -->
                     <div class="experience-grid">
@@ -130,7 +233,22 @@
                 <h2 class="section-title" data-i18n="cases.title">Cases</h2>
                 
                 <div class="cases-grid">
-                    <!-- Case 1: Cultural Shift -->
+                    <!-- Case 1: Agile Transformation -->
+                    <a href="cases/agile-transformation.html" class="case-card-link">
+                        <div class="case-card" data-case="agile-transformation">
+                            <div class="case-header">
+                                <h3>Agile Transformation for Retail Business (500+ employees)</h3>
+                                <div class="view-case-icon">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                            <div class="case-description">
+                                <span class="case-tags">Agile, Business Transformation, In-house Framework, Organizational Design, Change Management, Cross-functional Collaboration, Leadership Alignment</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Case 2: Cultural Shift -->
                     <a href="cases/cultural-shift.html" class="case-card-link">
                         <div class="case-card" data-case="cultural-shift">
                             <div class="case-header">
@@ -178,105 +296,6 @@
             </div>
         </section>
 
-        <!-- Sessions Section -->
-        <section id="sessions" class="sessions-section">
-            <div class="container">
-                <h2 class="section-title" data-i18n="sessions.title">Sessions</h2>
-                
-                <div class="sessions-grid">
-                    <!-- Team Bonding Sessions -->
-                    <a href="sessions/team-bonding.html" class="case-card-link">
-                        <div class="session-card">
-                            <div class="session-header">
-                                <h3 data-i18n="session1.title">Team Bonding Sessions</h3>
-                                <div class="view-case-icon">
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                            </div>
-                            <div class="session-description">
-                                <span class="case-tags">Sociometry, Management 3.0 practices</span>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Strategic Sessions -->
-                    <a href="sessions/strategic-sessions.html" class="case-card-link">
-                        <div class="session-card">
-                            <div class="session-header">
-                                <h3 data-i18n="session2.title">Strategic Sessions</h3>
-                                <div class="view-case-icon">
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                            </div>
-                            <div class="session-description">
-                                <span class="case-tags">Deep strategic planning and alignment sessions</span>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Agile Ceremonies -->
-                    <a href="sessions/agile-ceremonies.html" class="case-card-link">
-                        <div class="session-card">
-                            <div class="session-header">
-                                <h3 data-i18n="session3.title">Agile Ceremonies</h3>
-                                <div class="view-case-icon">
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                            </div>
-                            <div class="session-description">
-                                <span class="case-tags">Retrospectives, Plannings, Process optimizations</span>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Business Games -->
-                    <a href="sessions/business-games.html" class="case-card-link">
-                        <div class="session-card">
-                            <div class="session-header">
-                                <h3 data-i18n="session4.title">Business Games</h3>
-                                <div class="view-case-icon">
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                            </div>
-                            <div class="session-description">
-                                <span class="case-tags">Snowflowers factory, Hierarchy, Lego</span>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Innovative Sessions -->
-                    <a href="sessions/innovative-sessions.html" class="case-card-link">
-                        <div class="session-card">
-                            <div class="session-header">
-                                <h3 data-i18n="session5.title">Innovative Sessions</h3>
-                                <div class="view-case-icon">
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                            </div>
-                            <div class="session-description">
-                                <span class="session-tagline">Where wisdom sparks wild ideas</span>
-                                <span class="case-tags">TRIZ, JTBD, Lego Serious Play, Blue Ocean Strategy</span>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!-- Others Sessions -->
-                    <a href="sessions/others.html" class="case-card-link">
-                        <div class="session-card">
-                            <div class="session-header">
-                                <h3 data-i18n="session6.title">Others</h3>
-                                <div class="view-case-icon">
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
-                            </div>
-                            <div class="session-description">
-                                <span class="case-tags">Customized sessions, coaching, design thinking, leadership</span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </section>
 
         <!-- About Section -->
         <section id="about" class="about-section">
@@ -359,9 +378,9 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-nav">
-                    <a href="#overview" data-i18n="nav.overview">Overview</a>
-                    <a href="#cases" data-i18n="nav.cases">Cases</a>
                     <a href="#sessions" data-i18n="nav.sessions">Sessions</a>
+                    <a href="#what-i-bring" data-i18n="nav.what-i-bring">What I Bring</a>
+                    <a href="#cases" data-i18n="nav.cases">Cases</a>
                     <a href="#about" data-i18n="nav.about">About Me</a>
                 </div>
                 <div class="footer-copyright">

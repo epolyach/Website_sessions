@@ -23,49 +23,60 @@ const elements = {
 function initSmoothScroll() {
     elements.navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
-            e.preventDefault();
+            const href = this.getAttribute('href');
             
-            const targetId = this.getAttribute('href');
-            const targetSection = document.querySelector(targetId);
-            
-            if (targetSection) {
-                const headerOffset = 80;
-                const elementPosition = targetSection.getBoundingClientRect().top;
-                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+            // Check if it's a same-page anchor link (starts with #)
+            if (href.startsWith('#')) {
+                const targetSection = document.querySelector(href);
                 
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: 'smooth'
-                });
-                
-                // Close mobile menu if open
-                if (elements.navMenu.classList.contains('active')) {
-                    toggleMobileMenu();
+                if (targetSection) {
+                    e.preventDefault();
+                    
+                    const headerOffset = 80;
+                    const elementPosition = targetSection.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                    
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (elements.navMenu.classList.contains('active')) {
+                        toggleMobileMenu();
+                    }
+                    
+                    // Update active nav state
+                    updateActiveNav(this);
                 }
-                
-                // Update active nav state
-                updateActiveNav(this);
             }
+            // If it's a cross-page link (like ../index.html#sessions), let the browser handle it naturally
         });
     });
     
     // Footer nav links
     document.querySelectorAll('.footer-nav a').forEach(link => {
         link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href');
-            const targetSection = document.querySelector(targetId);
+            const href = this.getAttribute('href');
             
-            if (targetSection) {
-                const headerOffset = 80;
-                const elementPosition = targetSection.getBoundingClientRect().top;
-                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+            // Check if it's a same-page anchor link
+            if (href.startsWith('#')) {
+                const targetSection = document.querySelector(href);
                 
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: 'smooth'
-                });
+                if (targetSection) {
+                    e.preventDefault();
+                    
+                    const headerOffset = 80;
+                    const elementPosition = targetSection.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                    
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
             }
+            // If it's a cross-page link, let the browser handle it naturally
         });
     });
 }
@@ -392,6 +403,31 @@ const optimizedScrollHandler = debounce(() => {
 }, 100);
 
 // =========================================
+// Handle Cross-Page Navigation
+// =========================================
+function handleHashNavigation() {
+    // Check if there's a hash in the URL (e.g., #sessions, #cases)
+    if (window.location.hash) {
+        const targetId = window.location.hash;
+        const targetSection = document.querySelector(targetId);
+        
+        if (targetSection) {
+            // Wait a bit for page to fully load
+            setTimeout(() => {
+                const headerOffset = 80;
+                const elementPosition = targetSection.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }, 100);
+        }
+    }
+}
+
+// =========================================
 // Initialize Everything
 // =========================================
 function init() {
@@ -410,6 +446,9 @@ function init() {
     initIntersectionObserver();
     initContactIcon();
     initKeyboardNav();
+    
+    // Handle navigation from other pages with hash
+    handleHashNavigation();
     
     // Add optimized scroll listener
     window.addEventListener('scroll', optimizedScrollHandler);
