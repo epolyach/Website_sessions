@@ -1247,7 +1247,7 @@ section {
     /* Nobel Quote Mobile */
     .nobel-quote-section {
         padding: var(--spacing-lg) var(--spacing-md);
-        padding-top: calc(70px + var(--spacing-lg));
+        padding-top: calc(70px + var(--spacing-xl) + var(--spacing-md));
     }
     
     .quote-container {
