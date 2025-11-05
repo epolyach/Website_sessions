@@ -640,6 +640,18 @@ section {
     border-radius: 4px;
 }
 
+.case-image {
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+}
+
+.case-image img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--shadow-md);
+}
+
 .case-section {
     margin-bottom: var(--spacing-xl);
 }
@@ -1234,19 +1246,25 @@ section {
 @media (max-width: 768px) {
     /* Nobel Quote Mobile */
     .nobel-quote-section {
-        padding: var(--spacing-lg) 0;
+        padding: var(--spacing-lg) var(--spacing-md);
+        padding-top: calc(70px + var(--spacing-lg));
     }
     
     .quote-container {
         text-align: left;
+        max-width: 100%;
+        margin: 0;
     }
     
     .quote-text {
-        font-size: 1rem;
+        font-size: 1.05rem;
+        line-height: 1.7;
+        margin-bottom: var(--spacing-lg);
     }
     
     .quote-attribution {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
+        line-height: 1.5;
     }
     
     /* Header Mobile */
