@@ -1407,3 +1407,8 @@ section {
         padding: var(--spacing-md) !important;
     }
 }
+/* Session Format special styling */
+.case-section h2.session-format-title {
+    color: var(--accent-orange);
+    font-size: 1.55rem; /* 1.75rem - 0.2rem */
+}
