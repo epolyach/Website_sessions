@@ -1295,7 +1295,7 @@ section {
     }
     
     .lang-switcher {
-        display: none;
+        display: flex;
     }
     
     .mobile-menu-toggle {
