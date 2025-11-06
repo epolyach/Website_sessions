@@ -1,0 +1,535 @@
+{
+  "nav": {
+    "name": "Natalia Poliachenko",
+    "sessions": "Sessions",
+    "what-i-bring": "Mon Expertise",
+    "cases": "Cas Pratiques",
+    "about": "À Propos"
+  },
+  "common": {
+    "back-to-sessions": "Retour aux Sessions",
+    "back-to-cases": "Retour aux Cas Pratiques",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "copyright": "© 2025 Natalia Poliachenko. Tous droits réservés.",
+    "get-in-touch": "Me contacter",
+    "video-not-supported": "Votre navigateur ne prend pas en charge la balise vidéo."
+  },
+  "nobel": {
+    "quote": "La croissance des entreprises n'est pas une question de hasard — c'est le résultat d'une transformation délibérée et disruptive. En remplaçant les modes de pensée obsolètes par une adaptabilité agile et axée sur la valeur, les organisations gagnent en résilience et en avantage durable.",
+    "attribution": "— J. Mokyr, P. Aghion & P. Howitt, Prix Nobel d'Économie 2025"
+  },
+  "meta": {
+    "title": "Natalia Poliachenko - Coaching Professionnel & Sessions",
+    "description": "Sessions en tout genre — suscitant des idées audacieuses, des décisions plus intelligentes, une stratégie plus claire, une compréhension client plus profonde et de meilleures approches produit."
+  },
+  "sessions": {
+    "title": "Sessions en tout genre",
+    "session0": {
+      "title": "Sessions de Transformation",
+      "tags": "Atelier Feedback, Changement de Mentalité, Rétrospectives, Tout-en-Un"
+    },
+    "session1": {
+      "title": "Sessions de Cohésion d'Équipe",
+      "tags": "Sociométrie, Pratiques Management 3.0"
+    },
+    "session2": {
+      "title": "Sessions Stratégiques",
+      "tags": "Stratégie intelligente, créativité audacieuse et juste ce qu'il faut de plaisir"
+    },
+    "session3": {
+      "title": "Cérémonies Agile",
+      "tags": "Rétrospectives, Planifications, Optimisations de processus"
+    },
+    "session4": {
+      "title": "Jeux d'Entreprise",
+      "tags": "Fabrique de flocons, Hiérarchie, Lego"
+    },
+    "session5": {
+      "title": "Sessions Innovantes",
+      "tagline": "Transformer l'intuition en mouvement — et le mouvement en croissance"
+    },
+    "session6": {
+      "title": "Autres",
+      "tags": "Sessions personnalisées, coaching, design thinking, leadership"
+    }
+  },
+  "exp": {
+    "agile": "années de développement produit agile & transformation agile",
+    "tools": "années d'implémentation d'outils innovants",
+    "strategy": "années de conception & exécution de stratégies",
+    "coaching": "années de coaching & leadership d'équipe"
+  },
+  "stats": {
+    "teams": "équipes",
+    "hours": "heures de coaching individuel et d'équipe",
+    "sessions": "sessions stratégiques & disruptives",
+    "facilitation": "heures de facilitation"
+  },
+  "cases": {
+    "title": "Cas Pratiques",
+    "case0": {
+      "title": "Transformation Agile pour un Commerce de Détail (500+ employés)",
+      "tags": "Agile, Transformation d'Entreprise, Framework Interne, Design Organisationnel, Gestion du Changement, Collaboration Transversale, Alignement du Leadership"
+    },
+    "case1": {
+      "title": "Changement culturel dans une organisation de 1500 employés",
+      "tags": "évaluation, coaching, ateliers, pratiques RH, sessions stratégiques, agile"
+    },
+    "case2": {
+      "title": "Définition d'OKR pour un Produit Innovant",
+      "tags": "sessions stratégiques, définition d'objectifs, implémentation OKR"
+    },
+    "case3": {
+      "title": "Autres Cas",
+      "tags": "scrum, pratiques RH, définition d'objectifs, pratiques produit, facilitation de sessions stratégiques, audit, coaching, coaching d'équipe"
+    }
+  },
+  "about": {
+    "title": "À Propos",
+    "how": {
+      "title": "Comment tout a commencé",
+      "text": "J'ai toujours été curieuse de comprendre ce qui fait prospérer les personnes et les équipes — cette étincelle quand le sens rencontre la créativité."
+    },
+    "believe": {
+      "title": "Ce en quoi je crois",
+      "text": "Le véritable changement commence par la prise de conscience et la conversation, pas par les plans. Il naît de la curiosité, du courage et de la collaboration."
+    },
+    "working": {
+      "title": "Ma façon de travailler",
+      "text": "Je mélange stratégie et intuition, structure et jeu. Parce que la transformation fonctionne mieux quand elle est vivante — inspirante, humaine et amusante."
+    },
+    "certifications": {
+      "title": "Certifications & Crédentiels",
+      "facilitation": "Facilitation",
+      "facilitation-desc": "Facilitateur d'équipe agile, Coach d'équipe certifié",
+      "agile": "Agile",
+      "agile-desc": "Professional Scrum Master, Advanced Scrum Master & Agile Coach",
+      "coaching": "Coaching",
+      "coaching-desc": "Coach PCC",
+      "management": "Management",
+      "management-desc": "PMP, Praticien Management 3.0 & OKR"
+    }
+  },
+  "contact": {
+    "title": "Me Contacter",
+    "text": "Prêt à transformer votre organisation ?"
+  },
+  "pages": {
+    "transformation-sessions": {
+      "title": "Sessions de Transformation",
+      "intro": "Rendre le changement durable possible grâce à l'auto-découverte guidée, aux changements de mentalité et à l'action ciblée.",
+      "section1": {
+        "title": "1. Atelier Feedback",
+        "text": "Comprendre la psychologie du feedback et apprendre les modèles clés (COIN, Avery, Radical Candor). Acquérir des outils pratiques pour améliorer l'efficacité de la communication d'équipe."
+      },
+      "section2": {
+        "title": "2. Changement de Mentalité",
+        "text1": "Découvrez toutes sortes de sessions innovantes où les équipes s'attaquent à des tâches « insolubles ». Libérez la créativité, recadrez les défis et générez des solutions révolutionnaires.",
+        "text2": "Vous pouvez également découvrir nos sessions de Changement de Mentalité propulsées par LEGO® Serious Play. Ces ateliers utilisent des techniques pratiques de construction et de narration pour aider les équipes à visualiser de nouvelles perspectives, à stimuler l'engagement et à co-créer des stratégies actionnables. Regardez la courte vidéo ci-dessous pour voir comment les méthodes ludiques suscitent des insights profonds, accélèrent l'apprentissage et transforment la pensée collective — afin que votre équipe se sente habilitée à agir de manière significative."
+      },
+      "section3": {
+        "title": "3. Rétrospective – Nouvelles Règles de Travail & Accord d'Équipe",
+        "text": "Utilisez des frameworks comme Mad/Sad/Glad pour révéler les problèmes, réfléchir aux anciennes méthodes de travail et co-créer des solutions actionnables. Établissez des accords d'équipe clairs et améliorez la collaboration."
+      },
+      "section4": {
+        "title": "4. Session Tout-en-Un : Changement de Mentalité + Nouvelles Règles de Travail + Collaboration d'Équipe",
+        "text": "Une session unique qui stimule la transformation de la mentalité, le changement de comportement pratique et un meilleur alignement d'équipe, laissant les participants avec des outils concrets, de nouvelles façons de travailler et une collaboration renforcée."
+      },
+      "nav-next": "Suivant : Sessions de Cohésion d'Équipe"
+    },
+    "team-bonding": {
+      "title": "Sessions de Cohésion d'Équipe",
+      "tags": {
+        "sociometry": "sociométrie",
+        "management": "management 3.0",
+        "team-building": "team building"
+      },
+      "intro": "Construire des connexions authentiques au sein des équipes grâce à des méthodologies éprouvées qui transforment la dynamique de groupe et améliorent la collaboration.",
+      "sociometry": {
+        "title": "Sociométrie",
+        "text1": "La sociométrie est une méthode puissante pour visualiser et comprendre les schémas cachés de relations et de communication au sein des équipes. À travers des exercices structurés, les membres de l'équipe découvrent leurs connexions naturelles, identifient les conflits potentiels et trouvent de nouvelles façons de collaborer.",
+        "benefits-title": "Avantages Clés :",
+        "benefit1": "Révèle les dynamiques d'équipe non dites",
+        "benefit2": "Identifie les leaders informels et les influenceurs",
+        "benefit3": "Renforce la confiance et la sécurité psychologique",
+        "benefit4": "Améliore les modèles de communication"
+      },
+      "management3": {
+        "title": "Pratiques Management 3.0",
+        "text1": "Management 3.0 offre une boîte à outils moderne pour responsabiliser les équipes et créer des environnements où les gens peuvent faire leur meilleur travail. Ces pratiques interactives se concentrent sur la motivation, la délégation et l'amélioration continue.",
+        "practices-title": "Pratiques Populaires :",
+        "practice1": "Delegation Poker :",
+        "practice1-desc": "Clarifier les autorités décisionnelles de manière ludique et interactive",
+        "practice2": "Moving Motivators :",
+        "practice2-desc": "Comprendre ce qui motive vraiment chaque membre de l'équipe",
+        "practice3": "Celebration Grid :",
+        "practice3-desc": "Apprendre des succès et des échecs",
+        "practice4": "Kudo Cards :",
+        "practice4-desc": "Construire une culture de reconnaissance et d'appréciation"
+      },
+      "team-building": {
+        "title": "Team Building",
+        "text": "Les Sessions de Team Building offrent des activités dynamiques et engageantes conçues pour renforcer la collaboration, la confiance et la communication entre les membres de l'équipe. Ces sessions se concentrent sur la création de liens, l'amélioration des compétences de résolution de problèmes et la construction d'un esprit d'équipe unifié pour stimuler le succès collectif.",
+        "activity1": "Jeux d'équipe et exercices de confiance",
+        "activity2": "Résolution de tâches créatives communes et énigmes",
+        "activity3": "Jeux de rôle et simulations",
+        "activity4": "Discussion et développement d'objectifs et de valeurs d'équipe communes",
+        "activity5": "Activités pour développer une communication et un feedback efficaces"
+      },
+      "format": {
+        "title": "Format de Session",
+        "text": "Les sessions durent généralement 2 à 4 heures et peuvent être menées en présentiel ou en ligne. Chaque session est adaptée aux besoins et défis spécifiques de votre équipe, combinant exercices interactifs avec réflexion et planification d'actions."
+      },
+      "nav-next": "Suivant : Sessions Stratégiques"
+    },
+    "strategic-sessions": {
+      "title": "Sessions Stratégiques",
+      "tags": {
+        "planning": "planification stratégique",
+        "alignment": "alignement",
+        "goal-setting": "définition d'objectifs"
+      },
+      "intro": "Sessions approfondies de planification stratégique et d'alignement qui apportent de la clarté aux défis organisationnels complexes et créent une vision unifiée à travers les équipes.",
+      "what": {
+        "title": "Qu'est-ce qu'une Session Stratégique ?",
+        "text": "Les sessions stratégiques sont des ateliers facilités conçus pour aider les équipes de direction et les groupes transversaux à s'aligner sur la direction, prendre des décisions critiques et créer des feuilles de route actionnables. Contrairement aux réunions traditionnelles, ces sessions utilisent des cadres structurés et des méthodes interactives pour garantir que chaque voix soit entendue et que des résultats significatifs soient atteints."
+      },
+      "types": {
+        "title": "Types de Sessions",
+        "type1": "Ateliers Vision & Mission :",
+        "type1-desc": "Définir ou affiner le but et la direction organisationnels",
+        "type2": "Sessions de Définition d'OKR :",
+        "type2-desc": "Établir des objectifs et résultats clés clairs et mesurables",
+        "type3": "Planification Trimestrielle :",
+        "type3-desc": "Aligner les équipes sur les priorités et initiatives du trimestre",
+        "type4": "Ateliers de Résolution de Problèmes :",
+        "type4-desc": "Aborder des défis complexes en utilisant des méthodologies structurées",
+        "type5": "Sessions d'Alignement d'Équipe :",
+        "type5-desc": "Synchroniser la compréhension et les engagements entre les groupes"
+      },
+      "outcomes": {
+        "title": "Résultats Typiques",
+        "outcome1": "Une direction stratégique claire que tout le monde comprend et soutient",
+        "outcome2": "Des plans d'action concrets avec responsables et échéanciers",
+        "outcome3": "Des conflits résolus et des perspectives alignées",
+        "outcome4": "Des équipes énergisées prêtes à exécuter",
+        "outcome5": "Une documentation servant de référence continue"
+      },
+      "nav-prev": "Précédent : Cohésion d'Équipe",
+      "nav-next": "Suivant : Cérémonies Agile"
+    },
+    "agile-ceremonies": {
+      "title": "Cérémonies Agile",
+      "tags": {
+        "retrospectives": "rétrospectives",
+        "planning": "planification",
+        "optimization": "optimisation des processus"
+      },
+      "intro": "Faciliter les cérémonies agiles essentielles qui favorisent l'amélioration continue et l'alignement d'équipe. Une facilitation experte garantit que chaque session produit des résultats actionnables et renforce la collaboration d'équipe.",
+      "retrospectives": {
+        "title": "Rétrospectives",
+        "text": "Des sessions de réflexion structurées qui aident les équipes à apprendre de l'expérience et à s'améliorer continuellement. En utilisant divers formats et techniques de facilitation, nous créons des espaces sûrs pour une conversation honnête et des insights actionnables.",
+        "types-title": "Types de Rétrospectives :",
+        "type1": "Rétrospectives de Sprint :",
+        "type1-desc": "Réflexions d'équipe régulières à la fin de chaque sprint pour identifier les améliorations",
+        "type2": "Rétrospectives d'Équipe Trimestrielles :",
+        "type2-desc": "Réflexion plus large sur les tendances à long terme et les ajustements stratégiques",
+        "type3": "Post-Mortems de Projet :",
+        "type3-desc": "Analyse approfondie des projets terminés pour capturer les leçons apprises",
+        "type4": "Rétrospectives d'Innovation :",
+        "type4-desc": "Focus sur la résolution créative de problèmes et la pensée révolutionnaire"
+      },
+      "planning": {
+        "title": "Sessions de Planification",
+        "text": "Des cérémonies de planification efficaces qui alignent les équipes sur les objectifs, les priorités et les stratégies d'exécution. Une facilitation claire aide les équipes à prendre des engagements confiants et à maintenir l'attention sur ce qui compte le plus.",
+        "formats-title": "Formats de Planification Clés :",
+        "format1": "Planification de Sprint :",
+        "format1-desc": "Définir les objectifs de sprint, sélectionner les user stories et créer des tâches actionnables",
+        "format2": "Raffinement du Backlog :",
+        "format2-desc": "Clarifier les exigences, estimer l'effort et prioriser le travail à venir",
+        "format3": "Planification de Release :",
+        "format3-desc": "Cartographier les jalons majeurs, identifier les dépendances et définir les cibles de livraison",
+        "format4": "Planification PI :",
+        "format4-desc": "Planification à grande échelle pour plusieurs équipes dans les environnements SAFe",
+        "format5": "Planification Trimestrielle :",
+        "format5-desc": "Alignement stratégique sur les objectifs et résultats clés (OKR)"
+      },
+      "optimization": {
+        "title": "Optimisation des Processus",
+        "text": "Ateliers approfondis axés sur l'amélioration des processus d'équipe, l'identification des goulots d'étranglement, la rationalisation des flux de travail et l'élimination du gaspillage. En utilisant les principes lean et agile, nous aidons les équipes à travailler plus intelligemment, pas plus dur.",
+        "approaches-title": "Approches d'Optimisation :",
+        "approach1": "Cartographie de la Chaîne de Valeur :",
+        "approach1-desc": "Visualiser le flux de travail pour identifier les inefficacités et opportunités",
+        "approach2": "Contrôles de Santé des Processus :",
+        "approach2-desc": "Évaluer les pratiques actuelles par rapport aux meilleures pratiques agiles",
+        "approach3": "Conception de Workflow :",
+        "approach3-desc": "Créer ou repenser les processus d'équipe pour une efficacité maximale",
+        "approach4": "Analyse des Goulots d'Étranglement :",
+        "approach4-desc": "Identifier et résoudre les contraintes qui ralentissent la livraison",
+        "approach5": "Ateliers d'Élimination du Gaspillage :",
+        "approach5-desc": "Appliquer la pensée lean pour supprimer les activités sans valeur ajoutée"
+      },
+      "nav-prev": "Précédent : Sessions Stratégiques",
+      "nav-next": "Suivant : Jeux d'Entreprise"
+    },
+    "business-games": {
+      "title": "Jeux d'Entreprise",
+      "tags": {
+        "snowflakes": "flocons",
+        "hierarchy": "hiérarchie",
+        "lego": "lego",
+        "experiential": "apprentissage expérientiel"
+      },
+      "intro": "Des simulations d'entreprise interactives qui rendent l'apprentissage viscéral, mémorable et transformateur à travers l'expérience pratique. Ces jeux révèlent des insights sur le travail d'équipe, la communication et la dynamique organisationnelle que la formation traditionnelle ne peut capturer.",
+      "snowflakes": {
+        "title": "Flocons",
+        "text": "Un jeu produit qui démontre comment nous comprenons et écoutons les utilisateurs. En construisant des flocons de papier basés sur les exigences des utilisateurs, les équipes vivent directement les défis de l'interprétation des besoins clients, l'importance de poser des questions clarifiantes et l'impact des hypothèses sur le développement produit.",
+        "learnings-title": "Apprentissages Clés :",
+        "learning1": "Écoute active et poser les bonnes questions",
+        "learning2": "Le coût des hypothèses dans le développement produit",
+        "learning3": "Feedback itératif et validation avec les utilisateurs",
+        "learning4": "Équilibrer vitesse et compréhension des besoins clients"
+      },
+      "hierarchy": {
+        "title": "Hiérarchie",
+        "text": "Un jeu puissant qui démontre la perte d'information et le manque de clarté dans les structures hiérarchiques. Les participants vivent directement comment les messages se déforment en passant par les couches organisationnelles, révélant les défis de la communication descendante et l'importance de la transparence et des canaux de communication directs.",
+        "insights-title": "Insights Clés :",
+        "insight1": "Comment l'information se dégrade à travers les couches organisationnelles",
+        "insight2": "L'impact des dynamiques de pouvoir sur la précision des messages",
+        "insight3": "Pourquoi la communication directe est plus efficace que les messages en cascade",
+        "insight4": "Le rôle de la sécurité psychologique dans le partage d'informations"
+      },
+      "lego": {
+        "title": "Lego",
+        "text": "En utilisant Lego comme moyen d'expression, cette session aide les équipes à faire surface et à traiter les émotions difficiles, les tensions non dites et les sentiments complexes de manière non menaçante. Construire avec les mains crée une sécurité psychologique et permet aux gens d'exprimer ce que les mots ne peuvent capturer.",
+        "applications-title": "Applications :",
+        "application1": "Traiter les émotions et conflits d'équipe difficiles",
+        "application2": "Exprimer la vision et les valeurs à travers la métaphore",
+        "application3": "Explorer l'identité et le but",
+        "application4": "Construire l'empathie et la compréhension"
+      },
+      "nav-prev": "Précédent : Cérémonies Agile",
+      "nav-next": "Suivant : Sessions Innovantes"
+    },
+    "innovative-sessions": {
+      "title": "Sessions Innovantes",
+      "text1": "Une session d'innovation est un moyen rapide et puissant de secouer la mentalité de votre équipe et de découvrir de nouvelles solutions là où il n'y avait que des limites ou des problèmes « insolubles ». Dynamique, précis et avec un impact tangible.",
+      "text2": "Pour les leaders, c'est un redémarrage d'une journée de la pensée stratégique de l'équipe — rapide, inspirant et se terminant par des idées concrètes prêtes à être mises en œuvre.",
+      "example": "Par exemple, lorsque Reebok a été confronté à des vols récurrents dans ses usines, au lieu de renforcer les contrôles, ils ont appliqué une pensée inventive — produire les chaussures droites et gauches dans des usines séparées. Le vol a chuté instantanément, et l'idée est devenue un exemple légendaire de résolution créative de problèmes en action.",
+      "discover": "Découvrez plus...",
+      "method1": "Théorie de la Résolution Inventive de Problèmes (TRIZ)",
+      "method2": "Job-To-Be-Done (JTBD)",
+      "method3": "Lego Serious Play",
+      "method4": "Stratégie Océan Bleu",
+      "qr-text": "Choisissez la pratique d'innovation qui correspond à votre défi — scannez simplement le QR code.",
+      "qr-contact": "Si vous souhaitez explorer comment cela fonctionne en action, envoyez-moi un message.",
+      "qr-guide-title": "Comment utiliser le QR code pour trouver le meilleur outil d'innovation pour votre objectif :",
+      "qr-step1": "Scannez le QR code avec votre smartphone.",
+      "qr-step2": "Appuyez sur le bouton Ouvrir le QR code qui apparaît à l'écran.",
+      "qr-step3": "Le QR code ouvrira une invite sur le site Web.",
+      "qr-step4": "Copiez l'invite depuis le site.",
+      "qr-step5": "Collez l'invite dans n'importe quel outil IA.",
+      "qr-result": "L'IA vous posera quelques questions puis recommandera le meilleur outil d'innovation pour vos besoins.",
+      "nav-prev": "Précédent : Jeux d'Entreprise",
+      "nav-next": "Suivant : Autres Sessions"
+    },
+    "others": {
+      "title": "Autres Sessions",
+      "tags": {
+        "customized": "Sessions personnalisées",
+        "coaching": "coaching",
+        "design": "design thinking",
+        "leadership": "leadership"
+      },
+      "intro": "Au-delà des méthodologies structurées, j'offre des sessions personnalisées, du coaching individuel, des ateliers de design thinking, du développement du leadership et des programmes de formation spécialisés adaptés à vos besoins et défis uniques.",
+      "customized": {
+        "title": "Sessions Personnalisées",
+        "text": "Chaque organisation est unique. Lorsque les approches standard ne conviennent pas tout à fait, je conçois des sessions sur mesure qui répondent à votre contexte, défis et objectifs spécifiques. Ces sessions mélangent plusieurs méthodologies et cadres pour créer l'ajustement parfait pour votre situation."
+      },
+      "individual": {
+        "title": "Coaching Individuel",
+        "text": "Coaching individuel pour les leaders, managers et professionnels cherchant à améliorer leur efficacité, naviguer des défis complexes ou atteindre des objectifs spécifiques. Les sessions de coaching offrent un espace confidentiel pour la réflexion, la croissance et la pensée révolutionnaire.",
+        "focus-title": "Domaines d'Intervention :",
+        "focus1": "Développement du leadership",
+        "focus2": "Transitions de carrière",
+        "focus3": "Pensée stratégique et prise de décision",
+        "focus4": "Dynamiques d'équipe et collaboration",
+        "focus5": "Gestion du changement"
+      },
+      "design": {
+        "title": "Design Thinking",
+        "text": "Sessions interactives de design thinking qui aident les équipes à comprendre profondément les besoins des utilisateurs, à imaginer des solutions créatives et à prototyper et tester rapidement les idées. Parfait pour les défis d'innovation et le développement de nouveaux produits."
+      },
+      "leadership": {
+        "title": "Développement du Leadership",
+        "text": "Programmes complets de développement du leadership pour les individus et les équipes à tous les niveaux. Des managers débutants aux équipes exécutives, ces programmes combinent ateliers, coaching et application pratique pour développer des capacités de leadership durables et conduire un changement durable."
+      },
+      "specialized": {
+        "title": "Formation Spécialisée",
+        "text": "Formation ciblée sur des sujets spécifiques tels que les compétences de facilitation, les techniques de communication, la résolution de conflits, les pratiques de feedback, et plus encore. Toute formation est interactive, pratique et immédiatement applicable."
+      },
+      "together": {
+        "title": "Concevons Quelque Chose Ensemble",
+        "text": "Si vous avez un défi ou une opportunité spécifique en tête, parlons-en. Nous explorerons ce qui pourrait fonctionner le mieux pour votre situation et créerons une session ou un programme qui offre une réelle valeur."
+      },
+      "nav-prev": "Précédent : Sessions Innovantes"
+    },
+    "agile-transformation": {
+      "title": "Transformation Agile pour un Commerce de Détail (500+ employés) : de la conception d'un nouvel espace à la mise en œuvre d'un framework agile interne",
+      "interview-link": "Voir mon interview Agile",
+      "tags": {
+        "agile": "Agile",
+        "transformation": "Transformation d'Entreprise",
+        "framework": "Framework Interne",
+        "design": "Design Organisationnel",
+        "change": "Gestion du Changement",
+        "collaboration": "Collaboration Transversale",
+        "leadership": "Alignement du Leadership"
+      },
+      "intro": "En 2016, notre organisation a lancé une transformation Agile à grande échelle, visant à passer d'une hiérarchie traditionnelle à un modèle d'exploitation adaptatif et axé sur l'innovation. L'initiative couvrait toutes les dimensions de la transformation — du développement d'un framework agile interne personnalisé et de nouveaux rôles à la conception d'un espace de travail inspiré de l'agilité qui soutenait de nouvelles façons de travailler.",
+      "challenge": {
+        "title": "Défi",
+        "text1": "Nous n'avions que quatre mois pour passer d'un bâtiment vide à un hub agile entièrement fonctionnel — tout en créant simultanément un framework agile sur mesure qui reflétait la culture et les réalités commerciales de notre organisation.",
+        "text2": "Aucun espace agile comparable de cette échelle (pour plus de 10 000 employés) n'existait en Europe à l'époque. Nous devions :",
+        "point1": "Traduire les principes agiles en nouveaux modèles de gouvernance, rôles et collaboration.",
+        "point2": "Concevoir un espace soutenant de petites équipes transversales et des rituels agiles.",
+        "point3": "Maintenir la transformation alignée avec les objectifs de l'entreprise et livrée dans un budget et un calendrier serrés."
+      },
+      "approach": {
+        "title": "Approche",
+        "text": "En seulement quatre mois, nous avons travaillé dans toutes les directions — créant un nouvel espace de travail, un framework agile interne avec des rôles et cérémonies définis, une nouvelle structure organisationnelle et de nouveaux modèles d'interaction d'équipe.",
+        "point1": "Co-conception du premier framework agile de l'organisation",
+        "point1-desc": ", incluant les rôles, cérémonies et modèle de livraison adapté aux opérations de vente au détail.",
+        "point2": "Aide à définir la stratégie agile",
+        "point2-desc": " et la feuille de route de mise en œuvre alignée avec la vision du leadership.",
+        "point3": "Direction de l'intégration du secteur de la vente au détail",
+        "point3-desc": " dans le processus de transformation, assurant la pertinence et l'adoption à travers les unités commerciales.",
+        "point4": "Lancement de trois étages pilotes",
+        "point4-desc": " pour tester les modèles de collaboration, les agencements spatiaux et les dynamiques d'interaction des rôles.",
+        "point5": "Facilitation de la collaboration inter-départements et inter-partenaires",
+        "point5-desc": ", alignant les contractants, les RH, l'IT et les parties prenantes commerciales.",
+        "point6": "Assurer une livraison rapide",
+        "point6-desc": " à travers des boucles de feedback itératives, un suivi visuel des progrès et des rétrospectives agiles à chaque étape."
+      },
+      "result": {
+        "title": "Résultat",
+        "text": "Le projet a été livré à temps et au-delà des attentes, établissant une nouvelle norme interne pour les initiatives de transformation.",
+        "point1": "Le nouveau framework agile et les rôles sont devenus la fondation pour l'adoption à l'échelle de l'organisation.",
+        "point2": "L'espace de travail a permis les rituels agiles, stimulé la créativité et amélioré la performance d'équipe.",
+        "point3": "Le projet — plus tard rebaptisé ",
+        "point3-brand": "« Agile Home »",
+        "point3-desc": " — a remporté ",
+        "point3-award": "« Meilleur Bureau de l'Année »",
+        "point3-end": " deux fois et est devenu un point de référence pour les transformations ultérieures.",
+        "point4": "Ses principes ont ensuite été étendus à cinq bâtiments supplémentaires, intégrant la culture agile dans le travail quotidien.",
+        "conclusion": "L'initiative n'a pas seulement transformé l'environnement mais a également redéfini la façon dont l'organisation collaborait, livrait et évoluait."
+      },
+      "nav-next": "Cas Suivant"
+    },
+    "cultural-shift": {
+      "title": "Changement culturel dans une organisation de 1500 employés",
+      "tags": {
+        "assessment": "évaluation",
+        "coaching": "coaching",
+        "workshops": "ateliers",
+        "hr": "pratiques RH",
+        "strategic": "sessions stratégiques",
+        "agile": "agile"
+      },
+      "intro": "Quand une entreprise de 1 500 personnes vit comme une startup — l'énergie est élevée, mais le chaos règne. Pas de processus, pas d'objectifs clairs, pas de boucles de feedback. La convivialité à tous les niveaux s'est transformée en responsabilité floue.",
+      "challenge": {
+        "title": "Défi :",
+        "text": "Apporter de la clarté sans tuer l'esprit — comprendre où l'entreprise se situait vraiment dans son cycle de vie, redéfinir les styles de leadership et construire la structure qui soutient la croissance."
+      },
+      "approach": {
+        "title": "Approche :",
+        "text": "Nous avons combiné diagnostics et apprentissage expérientiel :",
+        "point1": "Développement du leadership :",
+        "point1-desc": " ateliers basés sur les Styles de Leadership Adizes et les modèles de Cycle de Vie d'Entreprise Adizes.",
+        "point2": "Sessions de Cohésion d'Équipe :",
+        "point2-desc": " sociométrie, pratiques Management 3.0.",
+        "point3": "Sessions Stratégiques :",
+        "point3-desc": " focus sur la synchronisation entre les équipes et les lignes de produits.",
+        "point4": "Cérémonies Agile :",
+        "point4-desc": " rétrospectives, sessions de planification et ateliers d'optimisation des processus."
+      },
+      "result": {
+        "title": "Résultat :",
+        "text": "+5 points de pourcentage de part de marché et une hausse visible de l'engagement — pas seulement des chiffres, mais une entreprise enfin en mouvement dans un seul rythme."
+      },
+      "nav-next": "Cas Suivant : Définition d'OKR"
+    },
+    "okr-goal-setting": {
+      "title": "Définition d'OKR pour un Produit Innovant",
+      "tags": {
+        "strategic": "sessions stratégiques",
+        "goal": "définition d'objectifs",
+        "okr": "implémentation OKR"
+      },
+      "intro": "L'équipe produit se sentait bloquée. Ils travaillaient dur — mais la direction manquait. Chaque équipe avait ses propres priorités, et personne ne pouvait clairement dire comment leur travail soutenait les objectifs de l'entreprise.",
+      "challenge": {
+        "title": "Défi :",
+        "text": "Créer une direction claire et ambitieuse pour le produit — qui inspire, aligne et génère des résultats mesurables."
+      },
+      "approach": {
+        "title": "Approche :",
+        "text": "Nous avons organisé une série de sessions structurées mais créatives pour connecter stratégie et exécution :",
+        "point1": "Atelier d'Alignement des Objectifs :",
+        "point1-desc": " lier les OKR produit aux objectifs au niveau de l'entreprise.",
+        "point2": "Atelier Métriques & Jalons :",
+        "point2-desc": " définir des indicateurs de succès clairs et des actions étape par étape.",
+        "point3": "Boost d'Innovation :",
+        "point3-desc": " utiliser TRIZ pour générer des idées révolutionnaires pour atteindre les objectifs de nouvelles manières.",
+        "point4": "Session de Revue Stratégique :",
+        "point4-desc": " tester les OKR pour la clarté, la pertinence et la motivation."
+      },
+      "result": {
+        "title": "Résultat :",
+        "text": "Une vision unifiée à travers les équipes, des objectifs mesurables qui ont inspiré l'action — et une feuille de route remplie d'étapes innovantes et réalisables vers la prochaine percée du marché."
+      },
+      "nav-prev": "Cas Précédent : Changement Culturel",
+      "nav-next": "Cas Suivant : Autres Cas"
+    },
+    "other-cases": {
+      "title": "Autres Cas",
+      "tags": {
+        "scrum": "scrum",
+        "hr": "pratiques RH",
+        "goal": "définition d'objectifs",
+        "product": "pratiques produit",
+        "strategic": "facilitation de sessions stratégiques",
+        "audit": "audit",
+        "coaching": "coaching",
+        "team-coaching": "coaching d'équipe"
+      },
+      "intro": "Divers engagements réussis incluant la mise en œuvre de Scrum, la transformation RH, la facilitation stratégique et des programmes complets de coaching d'équipe dans différentes industries.",
+      "overview": {
+        "title": "Vue d'ensemble :",
+        "text": "Tout au long de ma carrière, j'ai eu le privilège de travailler avec diverses organisations à travers plusieurs secteurs, chacune avec des défis et opportunités uniques. Ces engagements ont couvert divers domaines :"
+      },
+      "impact": {
+        "title": "Domaines d'Impact Clés :",
+        "area1": "Mise en Œuvre de Scrum :",
+        "area1-desc": " Aider les équipes à adopter les méthodologies et frameworks agiles pour une meilleure collaboration et une livraison plus rapide.",
+        "area2": "Transformation RH :",
+        "area2-desc": " Moderniser les pratiques RH pour s'aligner avec les besoins organisationnels contemporains et les attentes des employés.",
+        "area3": "Définition d'Objectifs & OKR :",
+        "area3-desc": " Établir des objectifs clairs et mesurables qui favorisent l'alignement et la performance à travers les organisations.",
+        "area4": "Pratiques Produit :",
+        "area4-desc": " Améliorer les processus de développement produit pour offrir une plus grande valeur aux clients.",
+        "area5": "Facilitation de Sessions Stratégiques :",
+        "area5-desc": " Guider les équipes de direction à travers les processus critiques de planification stratégique et de prise de décision.",
+        "area6": "Audits Organisationnels :",
+        "area6-desc": " Évaluer les états actuels et identifier les opportunités d'amélioration.",
+        "area7": "Coaching d'Équipe & Individuel :",
+        "area7-desc": " Développer les leaders et les équipes pour atteindre leur plein potentiel."
+      },
+      "results": {
+        "title": "Résultats à Travers les Engagements :",
+        "text": "Ces projets divers ont constamment fourni des améliorations mesurables de l'efficacité d'équipe, de l'agilité organisationnelle, de l'engagement des employés et de la performance commerciale globale. Chaque engagement est adapté au contexte et aux défis spécifiques de l'organisation, garantissant des résultats pertinents et impactants."
+      },
+      "nav-prev": "Cas Précédent : Définition d'OKR"
+    }
+  }
+}

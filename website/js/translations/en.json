@@ -1,0 +1,535 @@
+{
+  "nav": {
+    "name": "Natalia Poliachenko",
+    "sessions": "Sessions",
+    "what-i-bring": "What I Bring",
+    "cases": "Cases",
+    "about": "About Me"
+  },
+  "common": {
+    "back-to-sessions": "Back to Sessions",
+    "back-to-cases": "Back to Cases",
+    "next": "Next",
+    "previous": "Previous",
+    "copyright": "© 2025 Natalia Poliachenko. All rights reserved.",
+    "get-in-touch": "Get in touch",
+    "video-not-supported": "Your browser does not support the video tag."
+  },
+  "nobel": {
+    "quote": "Business growth is not a matter of chance — it's the outcome of deliberate, disruptive transformation. By replacing legacy thinking with agile, value-driven adaptability, organizations gain resilience and lasting advantage.",
+    "attribution": "— J. Mokyr, P. Aghion & P. Howitt, Nobel Prize in Economics 2025"
+  },
+  "meta": {
+    "title": "Natalia Poliachenko - Professional Coaching & Sessions",
+    "description": "Sessions of every kind — sparking bold ideas, smarter decisions, clearer strategy, deeper customer understanding, and better product ways."
+  },
+  "sessions": {
+    "title": "Sessions of every kind",
+    "session0": {
+      "title": "Transformation Sessions",
+      "tags": "Feedback Workshop, Mindset Shift, Retrospectives, All-in-One"
+    },
+    "session1": {
+      "title": "Team Bonding Sessions",
+      "tags": "Sociometry, Management 3.0 practices"
+    },
+    "session2": {
+      "title": "Strategic Sessions",
+      "tags": "Smart strategy, bold creativity, and just the right dose of fun"
+    },
+    "session3": {
+      "title": "Agile Ceremonies",
+      "tags": "Retrospectives, Plannings, Process optimizations"
+    },
+    "session4": {
+      "title": "Business Games",
+      "tags": "Snowflowers factory, Hierarchy, Lego"
+    },
+    "session5": {
+      "title": "Innovative Sessions",
+      "tagline": "Turning insight into movement — and movement into growth"
+    },
+    "session6": {
+      "title": "Others",
+      "tags": "Customized sessions, coaching, design thinking, leadership"
+    }
+  },
+  "exp": {
+    "agile": "years in agile product development & agile transformation",
+    "tools": "years in innovative tools implementation",
+    "strategy": "years in strategies design & execution",
+    "coaching": "years in team coaching & leading"
+  },
+  "stats": {
+    "teams": "teams",
+    "hours": "hours of individual and team coaching",
+    "sessions": "strategic & disrupt sessions",
+    "facilitation": "hours of facilitation"
+  },
+  "cases": {
+    "title": "Cases",
+    "case0": {
+      "title": "Agile Transformation for Retail Business (500+ employees)",
+      "tags": "Agile, Business Transformation, In-house Framework, Organizational Design, Change Management, Cross-functional Collaboration, Leadership Alignment"
+    },
+    "case1": {
+      "title": "Cultural shift in 1500 employee's organization",
+      "tags": "assessment, coaching, workshops, HR-practices, strategic sessions, agile"
+    },
+    "case2": {
+      "title": "OKR Goal Setting for a Breakthrough Product",
+      "tags": "strategic sessions, goal settings, OKR implementation"
+    },
+    "case3": {
+      "title": "Other Cases",
+      "tags": "scrum, HR-practices, goal settings, product practices, strategic session facilitation, audit, coaching, team coaching"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "how": {
+      "title": "How it started",
+      "text": "I've always been curious about what makes people and teams thrive — that spark when purpose meets creativity."
+    },
+    "believe": {
+      "title": "What I believe",
+      "text": "Real change starts with awareness and conversation, not with plans. It grows from curiosity, courage, and collaboration."
+    },
+    "working": {
+      "title": "My way of working",
+      "text": "I blend strategy with intuition, structure with play. Because transformation works best when it feels alive — inspiring, human, and fun."
+    },
+    "certifications": {
+      "title": "Certifications & Credentials",
+      "facilitation": "Facilitation",
+      "facilitation-desc": "Agile team facilitator, Certified team coach",
+      "agile": "Agile",
+      "agile-desc": "Professional Scrum Master, Advanced Scrum Master & Agile Coach",
+      "coaching": "Coaching",
+      "coaching-desc": "PCC coach",
+      "management": "Management",
+      "management-desc": "PMP, Management 3.0 & OKR practitioner"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "text": "Ready to transform your organization?"
+  },
+  "pages": {
+    "transformation-sessions": {
+      "title": "Transformation Sessions",
+      "intro": "Making lasting change possible through guided self-discovery, mindset shifts, and purposeful action.",
+      "section1": {
+        "title": "1. Feedback Workshop",
+        "text": "Understand the psychology of feedback and learn key models (COIN, Avery, Radical Candor). Gain practical tools to increase team communication effectiveness."
+      },
+      "section2": {
+        "title": "2. Mindset Shift",
+        "text1": "Experience all kinds of innovative sessions where teams tackle \"unsolvable\" tasks. Unlock creativity, reframe challenges, and generate breakthrough solutions.",
+        "text2": "You can also discover our Mindset Shift sessions powered by LEGO® Serious Play. These workshops use hands-on building and storytelling techniques to help teams visualize new perspectives, boost engagement, and co-create actionable strategies. Watch the short video below to see how playful methods spark deep insights, accelerate learning, and transform group thinking—so your team feels empowered to take meaningful action."
+      },
+      "section3": {
+        "title": "3. Retrospective – New Rules of Work & Team Agreement",
+        "text": "Use frameworks like Mad/Sad/Glad to surface problems, reflect on past ways of working, and co-create actionable solutions. Establish clear team agreements and improve collaboration."
+      },
+      "section4": {
+        "title": "4. All-in-One Session: Mindset Shift + New Rules of Work + Team Collaboration",
+        "text": "A single session drives mindset transformation, practical behavior change, and stronger team alignment, leaving participants with concrete tools, new ways of working, and elevated collaboration."
+      },
+      "nav-next": "Next: Team Bonding Sessions"
+    },
+    "team-bonding": {
+      "title": "Team Bonding Sessions",
+      "tags": {
+        "sociometry": "sociometry",
+        "management": "management 3.0",
+        "team-building": "team building"
+      },
+      "intro": "Building authentic connections within teams through proven methodologies that transform group dynamics and enhance collaboration.",
+      "sociometry": {
+        "title": "Sociometry",
+        "text1": "Sociometry is a powerful method for visualizing and understanding the hidden patterns of relationships and communication within teams. Through structured exercises, team members discover their natural connections, identify potential conflicts, and find new ways to collaborate.",
+        "benefits-title": "Key Benefits:",
+        "benefit1": "Reveals unspoken team dynamics",
+        "benefit2": "Identifies informal leaders and influencers",
+        "benefit3": "Strengthens trust and psychological safety",
+        "benefit4": "Improves communication patterns"
+      },
+      "management3": {
+        "title": "Management 3.0 Practices",
+        "text1": "Management 3.0 offers a modern toolkit for empowering teams and creating environments where people can do their best work. These interactive practices focus on motivation, delegation, and continuous improvement.",
+        "practices-title": "Popular Practices Include:",
+        "practice1": "Delegation Poker:",
+        "practice1-desc": "Clarifying decision-making authorities in a fun, interactive way",
+        "practice2": "Moving Motivators:",
+        "practice2-desc": "Understanding what truly drives each team member",
+        "practice3": "Celebration Grid:",
+        "practice3-desc": "Learning from both successes and failures",
+        "practice4": "Kudo Cards:",
+        "practice4-desc": "Building a culture of appreciation and recognition"
+      },
+      "team-building": {
+        "title": "Team Building",
+        "text": "Team Building Sessions offer dynamic and engaging activities designed to strengthen collaboration, trust, and communication among team members. These sessions focus on fostering connection, enhancing problem-solving skills, and building a unified team spirit to drive collective success.",
+        "activity1": "Team games and trust exercises",
+        "activity2": "Solving joint creative tasks and puzzles",
+        "activity3": "Role plays and simulations",
+        "activity4": "Discussion and development of common team goals and values",
+        "activity5": "Activities to develop effective communication and feedback"
+      },
+      "format": {
+        "title": "Session Format",
+        "text": "Sessions are typically 2-4 hours and can be conducted in-person or online. Each session is tailored to your team's specific needs and challenges, combining interactive exercises with reflection and action planning."
+      },
+      "nav-next": "Next: Strategic Sessions"
+    },
+    "strategic-sessions": {
+      "title": "Strategic Sessions",
+      "tags": {
+        "planning": "strategic planning",
+        "alignment": "alignment",
+        "goal-setting": "goal setting"
+      },
+      "intro": "Deep strategic planning and alignment sessions that bring clarity to complex organizational challenges and create unified vision across teams.",
+      "what": {
+        "title": "What Are Strategic Sessions?",
+        "text": "Strategic sessions are facilitated workshops designed to help leadership teams and cross-functional groups align on direction, make critical decisions, and create actionable roadmaps. Unlike traditional meetings, these sessions use structured frameworks and interactive methods to ensure every voice is heard and meaningful outcomes are achieved."
+      },
+      "types": {
+        "title": "Session Types",
+        "type1": "Vision & Mission Workshops:",
+        "type1-desc": "Define or refine organizational purpose and direction",
+        "type2": "OKR Setting Sessions:",
+        "type2-desc": "Establish clear, measurable objectives and key results",
+        "type3": "Quarterly Planning:",
+        "type3-desc": "Align teams on priorities and initiatives for the quarter",
+        "type4": "Problem-Solving Workshops:",
+        "type4-desc": "Tackle complex challenges using structured methodologies",
+        "type5": "Team Alignment Sessions:",
+        "type5-desc": "Synchronize understanding and commitments across groups"
+      },
+      "outcomes": {
+        "title": "Typical Outcomes",
+        "outcome1": "Clear strategic direction everyone understands and supports",
+        "outcome2": "Concrete action plans with owners and timelines",
+        "outcome3": "Resolved conflicts and aligned perspectives",
+        "outcome4": "Energized teams ready to execute",
+        "outcome5": "Documentation that serves as ongoing reference"
+      },
+      "nav-prev": "Previous: Team Bonding",
+      "nav-next": "Next: Agile Ceremonies"
+    },
+    "agile-ceremonies": {
+      "title": "Agile Ceremonies",
+      "tags": {
+        "retrospectives": "retrospectives",
+        "planning": "planning",
+        "optimization": "process optimization"
+      },
+      "intro": "Facilitate essential agile ceremonies that drive continuous improvement and team alignment. Expert facilitation ensures every session delivers actionable outcomes and strengthens team collaboration.",
+      "retrospectives": {
+        "title": "Retrospectives",
+        "text": "Structured reflection sessions that help teams learn from experience and continuously improve. Using various formats and facilitation techniques, we create safe spaces for honest conversation and actionable insights.",
+        "types-title": "Types of Retrospectives:",
+        "type1": "Sprint Retrospectives:",
+        "type1-desc": "Regular team reflections at the end of each sprint to identify improvements",
+        "type2": "Quarterly Team Retrospectives:",
+        "type2-desc": "Broader reflection on longer-term patterns and strategic adjustments",
+        "type3": "Project Post-Mortems:",
+        "type3-desc": "Deep-dive analysis of completed projects to capture lessons learned",
+        "type4": "Innovation Retrospectives:",
+        "type4-desc": "Focus on creative problem-solving and breakthrough thinking"
+      },
+      "planning": {
+        "title": "Planning Sessions",
+        "text": "Effective planning ceremonies that align teams on goals, priorities, and execution strategies. Clear facilitation helps teams make confident commitments and maintain focus on what matters most.",
+        "formats-title": "Key Planning Formats:",
+        "format1": "Sprint Planning:",
+        "format1-desc": "Define sprint goals, select user stories, and create actionable tasks",
+        "format2": "Backlog Refinement:",
+        "format2-desc": "Clarify requirements, estimate effort, and prioritize upcoming work",
+        "format3": "Release Planning:",
+        "format3-desc": "Map out major milestones, identify dependencies, and set delivery targets",
+        "format4": "PI Planning:",
+        "format4-desc": "Large-scale planning for multiple teams in SAFe environments",
+        "format5": "Quarterly Planning:",
+        "format5-desc": "Strategic alignment on objectives and key results (OKRs)"
+      },
+      "optimization": {
+        "title": "Process Optimization",
+        "text": "Deep-dive workshops focused on improving team processes, identifying bottlenecks, streamlining workflows, and eliminating waste. Using lean and agile principles, we help teams work smarter, not harder.",
+        "approaches-title": "Optimization Approaches:",
+        "approach1": "Value Stream Mapping:",
+        "approach1-desc": "Visualize the flow of work to identify inefficiencies and opportunities",
+        "approach2": "Process Health Checks:",
+        "approach2-desc": "Assess current practices against agile best practices",
+        "approach3": "Workflow Design:",
+        "approach3-desc": "Create or redesign team processes for maximum effectiveness",
+        "approach4": "Bottleneck Analysis:",
+        "approach4-desc": "Identify and resolve constraints that slow down delivery",
+        "approach5": "Waste Elimination Workshops:",
+        "approach5-desc": "Apply lean thinking to remove non-value-adding activities"
+      },
+      "nav-prev": "Previous: Strategic Sessions",
+      "nav-next": "Next: Business Games"
+    },
+    "business-games": {
+      "title": "Business Games",
+      "tags": {
+        "snowflakes": "snowflakes",
+        "hierarchy": "hierarchy",
+        "lego": "lego",
+        "experiential": "experiential learning"
+      },
+      "intro": "Interactive business simulations that make learning visceral, memorable, and transformative through hands-on experience. These games reveal insights about teamwork, communication, and organizational dynamics that traditional training cannot capture.",
+      "snowflakes": {
+        "title": "Snowflakes",
+        "text": "A product game that demonstrates how we understand and listen to users. Through building paper snowflakes based on user requirements, teams experience firsthand the challenges of interpreting customer needs, the importance of asking clarifying questions, and the impact of assumptions on product development.",
+        "learnings-title": "Key Learnings:",
+        "learning1": "Active listening and asking the right questions",
+        "learning2": "The cost of assumptions in product development",
+        "learning3": "Iterative feedback and validation with users",
+        "learning4": "Balancing speed with understanding customer needs"
+      },
+      "hierarchy": {
+        "title": "Hierarchy",
+        "text": "A powerful game that demonstrates information loss and the lack of clarity in hierarchical structures. Participants experience firsthand how messages get distorted as they pass through organizational layers, revealing the challenges of top-down communication and the importance of transparency and direct communication channels.",
+        "insights-title": "Key Insights:",
+        "insight1": "How information degrades through organizational layers",
+        "insight2": "The impact of power dynamics on message accuracy",
+        "insight3": "Why direct communication is more effective than cascading messages",
+        "insight4": "The role of psychological safety in information sharing"
+      },
+      "lego": {
+        "title": "Lego",
+        "text": "Using Lego as a medium for expression, this session helps teams surface and process difficult emotions, unspoken tensions, and complex feelings in a non-threatening way. Building with hands creates psychological safety and allows people to express what words cannot capture.",
+        "applications-title": "Applications:",
+        "application1": "Processing difficult team emotions and conflicts",
+        "application2": "Expressing vision and values through metaphor",
+        "application3": "Exploring identity and purpose",
+        "application4": "Building empathy and understanding"
+      },
+      "nav-prev": "Previous: Agile Ceremonies",
+      "nav-next": "Next: Innovative Sessions"
+    },
+    "innovative-sessions": {
+      "title": "Innovative Sessions",
+      "text1": "An innovation session is a fast and powerful way to shake up your team's mindset and uncover new solutions where there used to be only limits or \"unsolvable\" problems. Dynamic, precise, and with a tangible impact.",
+      "text2": "For leaders, it's a one-day reboot of the team's strategic thinking — fast, inspiring, and ending with concrete ideas ready for implementation.",
+      "example": "For example, when Reebok faced recurring theft at their factories, instead of tightening controls, they applied inventive thinking — producing right and left shoes at separate plants. Theft dropped instantly, and the idea became a legendary example of creative problem-solving in action.",
+      "discover": "Discover more...",
+      "method1": "Theory of Inventive Problem Solving (TRIZ)",
+      "method2": "Job-To-Be-Done (JTBD)",
+      "method3": "Lego Serious Play",
+      "method4": "Blue Ocean Strategy",
+      "qr-text": "Pick the innovation practice that fits your challenge — just scan the QR code.",
+      "qr-contact": "If you'd like to explore how it works in action, drop me a message.",
+      "qr-guide-title": "How to use the QR code to find the best innovation tool for your purpose:",
+      "qr-step1": "Scan the QR code with your smartphone.",
+      "qr-step2": "Press the Open QR code button that appears on the screen.",
+      "qr-step3": "The QR code will open a prompt on the website.",
+      "qr-step4": "Copy the prompt from the site.",
+      "qr-step5": "Paste the prompt into any AI tool.",
+      "qr-result": "The AI will ask you a few questions and then recommend the best innovation tool for your needs.",
+      "nav-prev": "Previous: Business Games",
+      "nav-next": "Next: Other Sessions"
+    },
+    "others": {
+      "title": "Other Sessions",
+      "tags": {
+        "customized": "Customized sessions",
+        "coaching": "coaching",
+        "design": "design thinking",
+        "leadership": "leadership"
+      },
+      "intro": "Beyond the structured methodologies, I offer customized sessions, individual coaching, design thinking workshops, leadership development, and specialized training programs tailored to your unique needs and challenges.",
+      "customized": {
+        "title": "Customized Sessions",
+        "text": "Every organization is unique. When standard approaches don't quite fit, I design bespoke sessions that address your specific context, challenges, and goals. These sessions blend multiple methodologies and frameworks to create the perfect fit for your situation."
+      },
+      "individual": {
+        "title": "Individual Coaching",
+        "text": "One-on-one coaching for leaders, managers, and professionals seeking to enhance their effectiveness, navigate complex challenges, or achieve specific goals. Coaching sessions provide a confidential space for reflection, growth, and breakthrough thinking.",
+        "focus-title": "Focus Areas:",
+        "focus1": "Leadership development",
+        "focus2": "Career transitions",
+        "focus3": "Strategic thinking and decision-making",
+        "focus4": "Team dynamics and collaboration",
+        "focus5": "Change management"
+      },
+      "design": {
+        "title": "Design Thinking",
+        "text": "Interactive design thinking sessions that help teams deeply understand user needs, ideate creative solutions, and rapidly prototype and test ideas. Perfect for innovation challenges and new product development."
+      },
+      "leadership": {
+        "title": "Leadership Development",
+        "text": "Comprehensive leadership development programs for individuals and teams at all levels. From first-time managers to executive teams, these programs combine workshops, coaching, and practical application to build sustainable leadership capabilities and drive lasting change."
+      },
+      "specialized": {
+        "title": "Specialized Training",
+        "text": "Targeted training on specific topics such as facilitation skills, communication techniques, conflict resolution, feedback practices, and more. All training is interactive, practical, and immediately applicable."
+      },
+      "together": {
+        "title": "Let's Design Something Together",
+        "text": "If you have a specific challenge or opportunity in mind, let's talk. We'll explore what might work best for your situation and create a session or program that delivers real value."
+      },
+      "nav-prev": "Previous: Innovative Sessions"
+    },
+    "agile-transformation": {
+      "title": "Agile Transformation for Retail Business (500+ employees): from designing a new space to implementing an in-house agile framework",
+      "interview-link": "See my Agile interview",
+      "tags": {
+        "agile": "Agile",
+        "transformation": "Business Transformation",
+        "framework": "In-house Framework",
+        "design": "Organizational Design",
+        "change": "Change Management",
+        "collaboration": "Cross-functional Collaboration",
+        "leadership": "Leadership Alignment"
+      },
+      "intro": "In 2016, our organization initiated a large-scale Agile transformation, aiming to shift from traditional hierarchy to an adaptive, innovation-driven operating model. The initiative covered all dimensions of transformation — from developing a custom in-house agile framework and new roles to designing an agile-inspired workspace that supported new ways of working.",
+      "challenge": {
+        "title": "Challenge",
+        "text1": "We had only four months to move from an empty building to a fully functional agile hub — while simultaneously creating a bespoke agile framework that reflected our organization's culture and business realities.",
+        "text2": "No comparable agile spaces of this scale (for 10+ thousands of employees) existed in Europe at the time. We had to:",
+        "point1": "Translate agile principles into new governance, roles, and collaboration models.",
+        "point2": "Design a space supporting small, cross-functional teams and agile rituals.",
+        "point3": "Keep the transformation aligned with corporate goals and delivered within a tight budget and schedule."
+      },
+      "approach": {
+        "title": "Approach",
+        "text": "In just four months, we worked in all directions — creating a new workspace, an in-house agile framework with defined roles and ceremonies, a new organizational structure, and new patterns of team interaction.",
+        "point1": "Co-designing the organization's first agile framework",
+        "point1-desc": ", including roles, ceremonies, and delivery model tailored to retail operations.",
+        "point2": "Helping define the agile strategy",
+        "point2-desc": " and implementation roadmap aligned with leadership vision.",
+        "point3": "Leading the retail sector's integration",
+        "point3-desc": " into the transformation process, ensuring relevance and adoption across business units.",
+        "point4": "Launching three pilot floors",
+        "point4-desc": " to test collaboration patterns, spatial layouts, and role interaction dynamics.",
+        "point5": "Facilitating cross-departmental and cross-partner collaboration",
+        "point5-desc": ", aligning contractors, HR, IT, and business stakeholders.",
+        "point6": "Ensuring rapid delivery",
+        "point6-desc": " through iterative feedback loops, visual progress tracking, and agile retrospectives at every stage."
+      },
+      "result": {
+        "title": "Result",
+        "text": "The project was delivered on time and above expectations, setting a new internal standard for transformation initiatives.",
+        "point1": "The new agile framework and roles became the foundation for organization-wide adoption.",
+        "point2": "The workspace enabled agile rituals, boosted creativity, and improved team performance.",
+        "point3": "The project — later branded ",
+        "point3-brand": "\"Agile Home\"",
+        "point3-desc": " — won ",
+        "point3-award": "\"Best Office of the Year\"",
+        "point3-end": " twice and became a reference point for subsequent transformations.",
+        "point4": "Its principles were later scaled to five additional buildings, embedding agile culture into everyday work.",
+        "conclusion": "The initiative not only transformed the environment but also redefined how the organization collaborated, delivered, and evolved."
+      },
+      "nav-next": "Next Case"
+    },
+    "cultural-shift": {
+      "title": "Cultural shift in 1500 employee's organization",
+      "tags": {
+        "assessment": "assessment",
+        "coaching": "coaching",
+        "workshops": "workshops",
+        "hr": "HR-practices",
+        "strategic": "strategic sessions",
+        "agile": "agile"
+      },
+      "intro": "When a company of 1,500 people lives like a startup — energy is high, but chaos rules. No processes, no clear goals, no feedback loops. Friendliness at all levels turned into blurred accountability.",
+      "challenge": {
+        "title": "Challenge:",
+        "text": "To bring clarity without killing the spirit — understand where the company really was in its lifecycle, redefine leadership styles, and build the structure that supports growth."
+      },
+      "approach": {
+        "title": "Approach:",
+        "text": "We combined diagnostics and experiential learning:",
+        "point1": "Leadership development:",
+        "point1-desc": " workshops based on Adizes Leadership Styles and Adizes Corporate Lifecycle models.",
+        "point2": "Team Bonding Sessions:",
+        "point2-desc": " sociometry, Management 3.0 practices.",
+        "point3": "Strategic Sessions:",
+        "point3-desc": " focus on synchronization across teams and product lines.",
+        "point4": "Agile Ceremonies:",
+        "point4-desc": " retrospectives, planning sessions, and process optimization workshops."
+      },
+      "result": {
+        "title": "Result:",
+        "text": "+5 percentage points in market share and a visible rise in engagement — not just numbers, but a company finally moving in one rhythm."
+      },
+      "nav-next": "Next Case: OKR Goal Setting"
+    },
+    "okr-goal-setting": {
+      "title": "OKR Goal Setting for a Breakthrough Product",
+      "tags": {
+        "strategic": "strategic sessions",
+        "goal": "goal settings",
+        "okr": "OKR implementation"
+      },
+      "intro": "The product team felt stuck. They were working hard — but direction was missing. Every team had its own priorities, and nobody could clearly say how their work supported the company's goals.",
+      "challenge": {
+        "title": "Challenge:",
+        "text": "Create a clear, ambitious direction for the product — one that inspires, aligns, and drives measurable results."
+      },
+      "approach": {
+        "title": "Approach:",
+        "text": "We ran a series of structured yet creative sessions to connect strategy with execution:",
+        "point1": "Goal Alignment Workshop:",
+        "point1-desc": " linking product OKRs to company-level objectives.",
+        "point2": "Metrics & Milestones Workshop:",
+        "point2-desc": " defining clear success indicators and step-by-step actions.",
+        "point3": "Innovation Boost:",
+        "point3-desc": " using TRIZ to generate breakthrough ideas for achieving goals in new ways.",
+        "point4": "Strategic Review Session:",
+        "point4-desc": " testing OKRs for clarity, relevance, and motivation."
+      },
+      "result": {
+        "title": "Result:",
+        "text": "A unified vision across teams, measurable goals that inspired action — and a roadmap filled with innovative, achievable steps toward the next market breakthrough."
+      },
+      "nav-prev": "Previous Case: Cultural Shift",
+      "nav-next": "Next Case: Other Cases"
+    },
+    "other-cases": {
+      "title": "Other Cases",
+      "tags": {
+        "scrum": "scrum",
+        "hr": "HR-practices",
+        "goal": "goal settings",
+        "product": "product practices",
+        "strategic": "strategic session facilitation",
+        "audit": "audit",
+        "coaching": "coaching",
+        "team-coaching": "team coaching"
+      },
+      "intro": "Various successful engagements including Scrum implementation, HR transformation, strategic facilitation, and comprehensive team coaching programs across different industries.",
+      "overview": {
+        "title": "Overview:",
+        "text": "Throughout my career, I've had the privilege of working with diverse organizations across multiple sectors, each with unique challenges and opportunities. These engagements have spanned various domains:"
+      },
+      "impact": {
+        "title": "Key Areas of Impact:",
+        "area1": "Scrum Implementation:",
+        "area1-desc": " Helping teams adopt agile methodologies and frameworks for better collaboration and faster delivery.",
+        "area2": "HR Transformation:",
+        "area2-desc": " Modernizing HR practices to align with contemporary organizational needs and employee expectations.",
+        "area3": "Goal Setting & OKRs:",
+        "area3-desc": " Establishing clear, measurable objectives that drive alignment and performance across organizations.",
+        "area4": "Product Practices:",
+        "area4-desc": " Enhancing product development processes to deliver greater value to customers.",
+        "area5": "Strategic Session Facilitation:",
+        "area5-desc": " Guiding leadership teams through critical strategic planning and decision-making processes.",
+        "area6": "Organizational Audits:",
+        "area6-desc": " Assessing current states and identifying improvement opportunities.",
+        "area7": "Team & Individual Coaching:",
+        "area7-desc": " Developing leaders and teams to reach their full potential."
+      },
+      "results": {
+        "title": "Results Across Engagements:",
+        "text": "These diverse projects have consistently delivered measurable improvements in team effectiveness, organizational agility, employee engagement, and overall business performance. Each engagement is tailored to the specific context and challenges of the organization, ensuring relevant and impactful outcomes."
+      },
+      "nav-prev": "Previous Case: OKR Goal Setting"
+    }
+  }
+}

@@ -185,60 +185,132 @@ function toggleCard(card) {
 }
 
 // =========================================
-// Language Switcher (Placeholder)
+// Language Switcher with i18n
 // =========================================
+let currentTranslations = {};
+let currentLanguage = 'en';
+
+// Load translation JSON file
+async function loadTranslations(lang) {
+    try {
+        // Determine the correct path - handle both root and subdirectory pages
+        const pathPrefix = window.location.pathname.includes('/sessions/') || window.location.pathname.includes('/cases/') ? '../' : '';
+        const translationPath = `${pathPrefix}js/translations/${lang}.json`;
+        
+        console.log(`Loading translations from: ${translationPath}`);
+        const response = await fetch(translationPath);
+        
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}: Failed to load translations for ${lang}`);
+        }
+        
+        currentTranslations = await response.json();
+        currentLanguage = lang;
+        console.log(`✓ Loaded ${lang}.json successfully with ${Object.keys(currentTranslations).length} top-level keys`);
+        return currentTranslations;
+    } catch (error) {
+        console.error(`✗ Error loading translations for ${lang}:`, error);
+        
+        // Try to use embedded translations if available (for file:// protocol)
+        if (typeof EMBEDDED_TRANSLATIONS !== 'undefined' && EMBEDDED_TRANSLATIONS[lang]) {
+            console.log(`✓ Using embedded translations for ${lang}`);
+            currentTranslations = EMBEDDED_TRANSLATIONS[lang];
+            currentLanguage = lang;
+            return currentTranslations;
+        }
+        
+        console.warn('If you are opening the file directly (file://), embedded translations should be loaded.');
+        console.warn('For best results, use a local web server: python3 -m http.server 8080');
+        
+        // Fallback to English if loading fails
+        if (lang !== 'en') {
+            console.log('Attempting fallback to English...');
+            return loadTranslations('en');
+        }
+        return {};
+    }
+}
+
+// Get nested translation value from key like "nav.sessions"
+function getTranslation(key) {
+    const keys = key.split('.');
+    let value = currentTranslations;
+    
+    for (const k of keys) {
+        if (value && value[k] !== undefined) {
+            value = value[k];
+        } else {
+            console.warn(`Translation key not found: ${key}`);
+            return null;
+        }
+    }
+    
+    return value;
+}
+
+// Apply translations to all elements with data-i18n attributes
+function applyTranslations() {
+    const elementsToTranslate = document.querySelectorAll('[data-i18n]');
+    console.log(`Applying translations to ${elementsToTranslate.length} elements...`);
+    
+    let successCount = 0;
+    let failCount = 0;
+    
+    elementsToTranslate.forEach(element => {
+        const key = element.getAttribute('data-i18n');
+        const translation = getTranslation(key);
+        
+        if (translation !== null && translation !== undefined) {
+            const attr = element.getAttribute('data-i18n-attr');
+            if (attr) {
+                element.setAttribute(attr, translation);
+            } else if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                element.placeholder = translation;
+            } else {
+                element.textContent = translation;
+            }
+            successCount++;
+        } else {
+            failCount++;
+        }
+    });
+    
+    console.log(`✓ Translated ${successCount} elements (${failCount} missing translations)`);
+    
+    // Update HTML lang attribute
+    document.documentElement.lang = currentLanguage;
+}
+
+// Switch language
+async function switchLanguage(lang) {
+    console.log(`\n=== Switching language to: ${lang.toUpperCase()} ===`);
+    
+    // Update active button state
+    elements.langButtons.forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.dataset.lang === lang) {
+            btn.classList.add('active');
+        }
+    });
+    
+    // Load and apply translations
+    await loadTranslations(lang);
+    applyTranslations();
+    
+    // Store preference
+    localStorage.setItem('preferredLanguage', lang);
+    
+    console.log(`✓ Language successfully switched to: ${lang.toUpperCase()}\n`);
+}
+
+// Initialize language switcher
 function initLanguageSwitcher() {
     elements.langButtons.forEach(btn => {
         btn.addEventListener('click', function() {
-            // Remove active class from all buttons
-            elements.langButtons.forEach(b => b.classList.remove('active'));
-            // Add active class to clicked button
-            this.classList.add('active');
-            
             const selectedLang = this.dataset.lang;
-            console.log(`Language switched to: ${selectedLang}`);
-            
-            // TODO: Implement actual language switching
-            // This is where you would:
-            // 1. Load the appropriate language file
-            // 2. Update all elements with data-i18n attributes
-            // 3. Store the preference in localStorage
-            
-            // Placeholder for future implementation
-            localStorage.setItem('preferredLanguage', selectedLang);
-            
-            // Show a temporary notification (remove in production)
-            showNotification(`Language switching to ${selectedLang.toUpperCase()} will be implemented soon!`);
+            switchLanguage(selectedLang);
         });
     });
-}
-
-// Temporary notification helper
-function showNotification(message) {
-    const notification = document.createElement('div');
-    notification.className = 'temp-notification';
-    notification.textContent = message;
-    notification.style.cssText = `
-        position: fixed;
-        top: 100px;
-        right: 20px;
-        background: var(--secondary-teal);
-        color: white;
-        padding: 15px 25px;
-        border-radius: 8px;
-        box-shadow: var(--shadow-lg);
-        z-index: 9999;
-        animation: slideInRight 0.3s ease-out;
-    `;
-    
-    document.body.appendChild(notification);
-    
-    setTimeout(() => {
-        notification.style.animation = 'slideOutRight 0.3s ease-out';
-        setTimeout(() => {
-            document.body.removeChild(notification);
-        }, 300);
-    }, 3000);
 }
 
 // =========================================
@@ -430,7 +502,7 @@ function handleHashNavigation() {
 // =========================================
 // Initialize Everything
 // =========================================
-function init() {
+async function init() {
     // Check if DOM is loaded
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', init);
@@ -453,16 +525,9 @@ function init() {
     // Add optimized scroll listener
     window.addEventListener('scroll', optimizedScrollHandler);
     
-    // Check for saved language preference
-    const savedLang = localStorage.getItem('preferredLanguage');
-    if (savedLang) {
-        elements.langButtons.forEach(btn => {
-            btn.classList.remove('active');
-            if (btn.dataset.lang === savedLang) {
-                btn.classList.add('active');
-            }
-        });
-    }
+    // Check for saved language preference and load translations
+    const savedLang = localStorage.getItem('preferredLanguage') || 'en';
+    await switchLanguage(savedLang);
     
     console.log('Website initialized successfully! 🚀');
 }
