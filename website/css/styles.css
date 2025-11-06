@@ -9,6 +9,7 @@
     --accent-green: #7bdcb5;
     --accent-coral: #ff6b6b;
     --accent-purple: #9b51e0;
+    --accent-orange: #ff8b3d;
     
     /* Neutral Colors */
     --white: #ffffff;
@@ -1410,5 +1411,5 @@ section {
 /* Session Format special styling */
 .case-section h2.session-format-title {
     color: var(--accent-orange);
-    font-size: 1.55rem; /* 1.75rem - 0.2rem */
+    font-size: 1.35rem; /* 1.75rem - 0.2rem */
 }
