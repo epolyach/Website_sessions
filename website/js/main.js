@@ -285,8 +285,9 @@ function applyTranslations() {
 async function switchLanguage(lang) {
     console.log(`\n=== Switching language to: ${lang.toUpperCase()} ===`);
     
-    // Update active button state
-    elements.langButtons.forEach(btn => {
+    // Update active button state (re-query to ensure we get buttons on current page)
+    const langButtons = document.querySelectorAll('.lang-btn');
+    langButtons.forEach(btn => {
         btn.classList.remove('active');
         if (btn.dataset.lang === lang) {
             btn.classList.add('active');
