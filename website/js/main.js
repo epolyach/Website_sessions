@@ -279,6 +279,25 @@ function applyTranslations() {
     
     // Update HTML lang attribute
     document.documentElement.lang = currentLanguage;
+    
+    // Update images based on language
+    applyLanguageImages();
+}
+
+// Apply language-specific images
+function applyLanguageImages() {
+    const imagesToTranslate = document.querySelectorAll('[data-i18n-img]');
+    console.log(`Applying language-specific images to ${imagesToTranslate.length} elements...`);
+    
+    imagesToTranslate.forEach(img => {
+        const langAttr = `data-img-${currentLanguage}`;
+        const newSrc = img.getAttribute(langAttr);
+        
+        if (newSrc) {
+            img.src = newSrc;
+            console.log(`✓ Updated image src to: ${newSrc}`);
+        }
+    });
 }
 
 // Switch language
