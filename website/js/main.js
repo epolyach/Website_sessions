@@ -282,6 +282,9 @@ function applyTranslations() {
     
     // Update images based on language
     applyLanguageImages();
+    
+    // Hide elements with empty translations
+    applyConditionalVisibility();
 }
 
 // Apply language-specific images
@@ -296,6 +299,22 @@ function applyLanguageImages() {
         if (newSrc) {
             img.src = newSrc;
             console.log(`✓ Updated image src to: ${newSrc}`);
+        }
+    });
+}
+
+// Hide elements when translation is empty
+function applyConditionalVisibility() {
+    const elementsToHide = document.querySelectorAll('[data-i18n-hide]');
+    
+    elementsToHide.forEach(element => {
+        const key = element.getAttribute('data-i18n-hide');
+        const translation = getTranslation(key);
+        
+        if (!translation || translation.trim() === '') {
+            element.style.display = 'none';
+        } else {
+            element.style.display = '';
         }
     });
 }
