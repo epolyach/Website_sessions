@@ -452,11 +452,12 @@ function initContactIcon() {
     
     if (contactIcon) {
         contactIcon.addEventListener('click', function(e) {
-            e.preventDefault();
-            
-            // Smooth scroll to contact section
+            // Check if contact section exists on current page
             const contactSection = document.querySelector('#contact');
+            
             if (contactSection) {
+                // On main page - smooth scroll
+                e.preventDefault();
                 const headerOffset = 80;
                 const elementPosition = contactSection.getBoundingClientRect().top;
                 const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
@@ -465,6 +466,11 @@ function initContactIcon() {
                     top: offsetPosition,
                     behavior: 'smooth'
                 });
+            } else {
+                // On subpages - redirect to index with contact hash
+                e.preventDefault();
+                const href = contactIcon.getAttribute('href');
+                window.location.href = href;
             }
         });
     }
